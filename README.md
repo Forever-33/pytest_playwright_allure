@@ -4,14 +4,12 @@
 
 ```pip install -r requirements.txt```
 
-## Запуск тестов
+## Запуск тестов и создание allure отчета
 
-```pytest ./tests/test_ui/test_practice_form.py```
+```pytest ./tests/test_ui/test_practice_form.py --alluredir=./tests/test_ui/allure-results```
 
 ## Запуск allure
 
 ```allure serve ./tests/test_ui/allure-results```
-
-##### не получается с Date of Birth, Subjects, State and City
 
 https://demoqa.com/automation-practice-form
